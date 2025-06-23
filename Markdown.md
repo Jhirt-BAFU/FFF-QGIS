@@ -22,7 +22,7 @@ Plugin in QGIS Installieren und Nutzen
     - Drücke auf den neuen Knopf "Swiss Geo Downloader" in der 2. Zeile.
     - Suche deine gwünschten Daten, in unserem Fall "Vegetation height model Lidar NFI".
     - Wähle file type "streamed tiff".
-    - Den Timestamp der gebracuht wird oder "all".
+    - Den Timestamp der gebraucht wird oder "all".
     - Unten rechts auf "Download".
 
 3. **Was ist Streamed Tiff?**
