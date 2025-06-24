@@ -37,11 +37,10 @@ Werte Abfragen und Daten Extrahierung
 1. **Werte Abfragen**.
 
    <video width="640" height="360" controls>
-    <source src="assets/StreamedTiff.mp4" type="video/mp4">
+    <source src="assets/DataQuery.mp4" type="video/mp4">
     </video>
 
     <!---
-    TODO: Edit the Video
     Add more steps
     -->
     - Um einen bestimmten Wer t zu extrahieren, ist es wichting durch die verschiedenen Layer durchzugehen.
