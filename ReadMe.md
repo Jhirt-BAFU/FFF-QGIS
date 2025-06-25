@@ -5,9 +5,8 @@ Plugin in QGIS Installieren und Nutzen
 
 1. **Plugin installieren**.
 
-    <video width="640" height="360" controls>
-    <source src="assets/PluginInstall.mp4" type="video/mp4">
-    </video>
+
+    https://github.com/user-attachments/assets/9ed8fa1c-de75-4205-99d8-9a9e186064c4
 
     - Gehe zu "Plugins" > "Manage and Install Plugins".
     - Suche nach "Swiss Locator" und "Swiss Geo Downloader".
