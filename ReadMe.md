@@ -11,33 +11,34 @@ Plugin in QGIS Installieren und Nutzen
     - Suche nach "Swiss Locator" und "Swiss Geo Downloader".
     - Drücke "Install".
 
-2. **Plugin Brauchen und Streamen**.
+2. ** Plugin verwenden und gestreamte Daten laden **.
 
     https://github.com/user-attachments/assets/3416cf93-0b94-4604-9e01-da67e19c0755
     
-    - Drücke auf den neuen Knopf "Swiss Geo Downloader" in der 2. Zeile.
-    - Suche deine gwünschten Daten, in unserem Fall "Vegetation height model Lidar NFI".
-    - Wähle file type "streamed tiff".
-    - Den Timestamp der gebraucht wird oder "all".
-    - Unten rechts auf "Download".
+    - Drücke auf den neuen Knopf "Swiss Geo Downloader" in der  zweiten Symbolzeile.
+    - Suche nach dem gwünschten Daten, in unserem Fall "Vegetation height model Lidar NFI".
+    - Wähle "File Type" "streamed tiff".
+    - Wähle den benötigten Zeitstempel oder "all", falls alle gewünscht sind.
+    - Klicke unten rechts auf "Download".
 
-3. **Was ist Streamed Tiff?**
+3. **Was ist "streamed tiff"?**
 
-    Ein Streamed Tiff, ist eine spezielles Daten-Format, welches erlaubt, dass nur die benötigten daten heruntergeladen werden. Dabei wird nie die ganze Datei heruntergeladen, sondern dynamisch nur der Teil der gerade Angezeigt wird.
+    Ein "streamed tiff", ist ein spezielles Datenformat, das ermöglicht, nur die aktuell benötigten Daten herunterzulade.
+    Es wird nie die gesamte Datei geladen, sondern nur der Teil welcher im Moment auf dem Bildschirm Angezeigt wird.
 
 
 
 Werte Abfragen und Daten Extrahierung
 ---------------------------------------
 
-1. **Werte Abfragen**.   
+1. **Werte abfragen**.   
 
     https://github.com/user-attachments/assets/c5879069-4bae-4792-961d-2052331bd1c2
 
-    <!---
-    Add more steps
-    -->
-    - Um einen bestimmten Wer t zu extrahieren, ist es wichting durch die verschiedenen Layer durchzugehen.
+    - Klicke auf das Symbol "Identify Feature".
+    - Wähle einen Baum an.
+    - Setze "Mode" auf "Top Down" und "View" auf "Table".
+    - Identifiziere den Layer mit einem Wert.
 
 2. **Raster Extrahieren**
     
@@ -45,30 +46,31 @@ Werte Abfragen und Daten Extrahierung
 
     - Drücke auf "Raster" > "Extraction" > "Clip Raster by Extent"
     - Wähle für den "Input Layer" der Layer auf dem deine Daten existieren.
-    - Drücke bei "Clipping extent" auf "set to current map Canvas Extent"
-    - Drücke "Run".
-    - Dies wird nun einen Clip machen von dem Layer am Ort wo dein Bildschirm ist, und diese Daten auch effektiv auf dein Gerät Hertunerladen.
+    - Drücke bei "Clipping extent" auf "set to current map Canvas Extent".
+    - Klicke auf "Run".
+    - Dadurch wird ein Ausschnitt des Layers an der aktuellen Bildschirmposition erstellt und lokal gespeichert.
 
 
 3. **Raster Extrahieren in Polygon grössen**
 
-    - Um nur einen bestimmten Abschnitt, der nicht perfekt auf den Bildschirm passt Hertunterzuladen.
+    - Um nur einen bestimmten Abschnitt, der nicht perfekt auf den Bildschirm passt hertunterzuladen.
 
     https://github.com/user-attachments/assets/383a965e-cd10-4c5f-8de5-f6e01cbcab26
 
-    - Drücke auf "New Temporary Scratch Layer"
-    - Wähle den Geometry Type Polygon und Wählen sie das gegebene CRS, bei der Schweizer Karte ist dies "EPSG:2056 CH1903+/LV95"
-    - Drücke nun auf das Add Polygon Feature, und Umkreise den Ort der heruntergeladen werden soll.
-    - Drücke auf "Raster" > "Extraction" > "Clip Raster by Mask Layer"
-    - Wähle wieder den gegebenen "Input Layer", dein "Mask Layer" und drücke auf "Run"
+    - Erstelle einen neuen temporären Layer, mit dem Feature "New Temporary Scratch Layer".
+    - Wähle den Geometrytyp Polygon und als CRS EPSG:2056 CH1903+/LV95 (für Schweizer Karten).
+    - Zeichne mit dem "Add Polygon" Feature den gewünschten Bereich ein.
+    - Drücke auf "Raster" > "Extraction" > "Clip Raster by Mask Layer".
+    - Wähle erneut den "Input Layer", den erstellten "Mask Layer" und klicke auf "Run".
 
-Abfrage von Zeitsänden in QGIS
+Abfrage von Zeitständen in QGIS
 -----------------------------------
 
 https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 
 
-- Falls die Daten eine "Temporal Property" besitzt, kann man mit einem Click auf das Uhr Icon einen "Temporal Controller" öffnen.
+- Falls die Daten eine "temporal property" besitzen, kann durch Klick auf das Uhren-Symbol der Temporal Controller geöffnet werden.
+- Um einem Layer eine Zeiteigenschaft zuzuweisen: Rechtsklick auf den Layer > "Properties" > Temporal.
 
 
 Abfragen und Ansehen von Daten im Webbrowser
