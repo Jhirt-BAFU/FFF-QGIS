@@ -5,7 +5,6 @@ Plugin in QGIS Installieren und Nutzen
 
 1. **Plugin installieren**.
 
-
     https://github.com/user-attachments/assets/9ed8fa1c-de75-4205-99d8-9a9e186064c4
 
     - Gehe zu "Plugins" > "Manage and Install Plugins".
@@ -14,10 +13,8 @@ Plugin in QGIS Installieren und Nutzen
 
 2. **Plugin Brauchen und Streamen**.
 
-    <video width="640" height="360" controls>
-    <source src="assets/StreamedTiff.mp4" type="video/mp4">
-    </video>
-
+    https://github.com/user-attachments/assets/3416cf93-0b94-4604-9e01-da67e19c0755
+    
     - Drücke auf den neuen Knopf "Swiss Geo Downloader" in der 2. Zeile.
     - Suche deine gwünschten Daten, in unserem Fall "Vegetation height model Lidar NFI".
     - Wähle file type "streamed tiff".
@@ -33,11 +30,9 @@ Plugin in QGIS Installieren und Nutzen
 Werte Abfragen und Daten Extrahierung
 ---------------------------------------
 
-1. **Werte Abfragen**.
+1. **Werte Abfragen**.   
 
-   <video width="640" height="360" controls>
-    <source src="assets/DataQuery.mp4" type="video/mp4">
-    </video>
+    https://github.com/user-attachments/assets/c5879069-4bae-4792-961d-2052331bd1c2
 
     <!---
     Add more steps
@@ -45,10 +40,8 @@ Werte Abfragen und Daten Extrahierung
     - Um einen bestimmten Wer t zu extrahieren, ist es wichting durch die verschiedenen Layer durchzugehen.
 
 2. **Raster Extrahieren**
-
-    <video width="640" height="360" controls>
-    <source src="assets/RasterExtrahieren.mp4" type="video/mp4">
-    </video>
+    
+    https://github.com/user-attachments/assets/2a21ea85-afc3-45b5-875e-55f2d949d792
 
     - Drücke auf "Raster" > "Extraction" > "Clip Raster by Extent"
     - Wähle für den "Input Layer" der Layer auf dem deine Daten existieren.
@@ -61,9 +54,7 @@ Werte Abfragen und Daten Extrahierung
 
     - Um nur einen bestimmten Abschnitt, der nicht perfekt auf den Bildschirm passt Hertunterzuladen.
 
-    <video width="640" height="360" controls>
-    <source src="assets/PolygonExtrahieren.mp4" type="video/mp4">
-    </video>
+    https://github.com/user-attachments/assets/383a965e-cd10-4c5f-8de5-f6e01cbcab26
 
     - Drücke auf "New Temporary Scratch Layer"
     - Wähle den Geometry Type Polygon und Wählen sie das gegebene CRS, bei der Schweizer Karte ist dies "EPSG:2056 CH1903+/LV95"
@@ -74,9 +65,8 @@ Werte Abfragen und Daten Extrahierung
 Abfrage von Zeitsänden in QGIS
 -----------------------------------
 
-<video width="640" height="360" controls>
-<source src="assets/Temporal.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
+
 
 - Falls die Daten eine "Temporal Property" besitzt, kann man mit einem Click auf das Uhr Icon einen "Temporal Controller" öffnen.
 
