@@ -59,12 +59,10 @@
 
     - Vorbereitung: Falls das benötigte Polygon noch nicht vorliegt
         - Erstelle einen neuen temporären Layer, mit dem Feature `New Temporary Scratch Layer`.
-        - Wähle den Geometrytyp Polygon und als CRS EPSG:2056 CH1903+/LV95 (für Schweizer Karten).
+        - Wähle den Geometrytyp `Polygon` und als CRS `EPSG:2056 CH1903+/LV95` (für Schweizer Karten).
         - Zeichne mit dem `Add Polygon` Feature den gewünschten Bereich ein.
         - Drücke auf `Raster` > `Extraction` > `Clip Raster by Mask Layer`.
         - Wähle den `Input Layer`, den erstellten `Mask Layer` und klicke auf `Run`.
-  
-    - Wähle den `Input Layer` und den `Mask Layer` und klicke auf `Run`.
 
 ## Abfrage von Zeitständen in QGIS
 
@@ -72,7 +70,7 @@ https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 
 
 - Sofern für Layer eine `temporal property` definiert ist, kann durch Klick auf das Uhren-Symbol der Temporal Controller geöffnet werden.
-- Um einem Layer eine Zeiteigenschaft zuzuweisen: Rechtsklick auf den Layer > `Properties` > Temporal.
+- Um einem Layer eine Zeiteigenschaft zuzuweisen: Rechtsklick auf den `Layer` > `Properties` > `Temporal`.
 
 
 ## Abfragen und Ansehen von Daten im Webbrowser
