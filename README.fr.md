@@ -1,5 +1,7 @@
 # Tutoriel - Importer un fichier GeoTIFF optimisé pour le cloud dans QGIS
 
+[_auf Deutsch_](./README.md)
+
 ## Installation et utilisation de l'extension dans QGIS
 
 1. **Installer l'extension**
