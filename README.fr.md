@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/9ed8fa1c-de75-4205-99d8-9a9e186064c4
 
 https://github.com/user-attachments/assets/3416cf93-0b94-4604-9e01-da67e19c0755
 
-- Cliquez sur le nouveau bouton `Swiss Geo Downloader` dans la deuxième rangée d'icônes.
+- Cliquez sur le nouveau bouton `Swiss Geo Downloader` ![](assets/SwissGeoDownloaderIcon.png) dans la deuxième rangée d'icônes.
 - Recherchez les données souhaitées, par exemple `Vegetation height model Lidar NFI`.
 - Sélectionnez `File Type` `streamed tiff`.
 - Sélectionnez l'horodatage souhaité ou `all` si vous souhaitez toutes les données.
@@ -33,7 +33,7 @@ Ce format permet d'économiser de l'espace de stockage en évitant le téléchar
 
 https://github.com/user-attachments/assets/c5879069-4bae-4792-961d-2052331bd1c2
 
-- Cliquez sur l'icône `Identify Feature`. 
+- Cliquez sur l'icône `Identify Feature` ![](assets/IdentifyFeatureIcon.png) . 
 - Sélectionnez un arbre.
 - Mettre `Mode` sur `Top Down` et `View` sur `Table`.
 - Identifiez la couche avec une valeur.
@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/2a21ea85-afc3-45b5-875e-55f2d949d792
 
 - Cliquez sur `Raster` > `Extraction` > `Clip Raster by Extent`
 - Pour la `Input Layer`, sélectionnez la couche contenant vos données.
-- Pour `Clipping extent`, cliquez sur `set to current map Canvas Extent`.
+- Pour `Clipping extent`, cliquez sur `set to current map Canvas Extent` ![](assets/ClippingExtendIcon.png) .
 - Cliquez sur `Run`.
 - Une section de la couche est extraite à la position actuelle de l'écran et enregistrée localement.
 
@@ -56,9 +56,9 @@ https://github.com/user-attachments/assets/2a21ea85-afc3-45b5-875e-55f2d949d792
 
 https://github.com/user-attachments/assets/383a965e-cd10-4c5f-8de5-f6e01cbcab26
 
-- Préparation : Si le polygone requis n'est pas encore disponible, créez une couche temporaire à l'aide de la fonctionnalité `New Temporary Scratch Layer`.
+- Préparation : Si le polygone requis n'est pas encore disponible, créez une couche temporaire à l'aide de la fonctionnalité `New Temporary Scratch Layer` ![](assets/NewTemporaryScratchLayerIcon.png) .
 - Sélectionnez `Polygone` comme type de géométrie et `EPSG:2056 CH1903+/LV95` comme SCR (pour les cartes suisses).
-- Utilisez la fonctionnalité `Add Polygon` pour dessiner la zone souhaitée.
+- Utilisez la fonctionnalité `Add Polygon` ![](assets/PolygonIcon.png) pour dessiner la zone souhaitée.
 - Cliquez sur `Raster` > `Extraction` > `Clip Raster by Mask Layer`.
 - Sélectionnez le `Input Layer`, le `Mask Layer` créé, puis cliquez sur `Run`.
 
@@ -66,7 +66,7 @@ https://github.com/user-attachments/assets/383a965e-cd10-4c5f-8de5-f6e01cbcab26
 
 https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 
-- Si une `temporal property` est définie pour une couche, le contrôleur temporel peut être ouvert en cliquant sur l'icône en forme d'horloge.
+- Si une `temporal property` ![](assets/TemporalIcon.png) est définie pour une couche, le contrôleur temporel peut être ouvert en cliquant sur l'icône en forme d'horloge.
 - Pour attribuer une propriété temporelle à une couche : Clic droit sur la `Layer` > `Properties` > `Temporal`.
 
 ## Interrogation et visualisation des données dans le navigateur web
