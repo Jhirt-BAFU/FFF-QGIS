@@ -16,7 +16,7 @@
 
     https://github.com/user-attachments/assets/3416cf93-0b94-4604-9e01-da67e19c0755
     
-    - Drücke auf den neuen Knopf `Swiss Geo Downloader` in der  zweiten Symbolzeile.
+    - Drücke auf den neuen Knopf `Swiss Geo Downloader` ![](assets/SwissGeoDownloaderIcon.png) in der  zweiten Symbolzeile.
     - Suche nach den gwünschten Daten, beispielsweise `Vegetation height model Lidar NFI`.
     - Wähle `File Type` `streamed tiff`.
     - Wähle den benötigten Zeitstempel oder `all`, falls alle gewünscht sind.
@@ -35,7 +35,7 @@
 
     https://github.com/user-attachments/assets/c5879069-4bae-4792-961d-2052331bd1c2
 
-    - Klicke auf das Symbol `Identify Feature`.
+    - Klicke auf das Symbol `Identify Feature` ![](assets/IdentifyFeatureIcon.png) .
     - Wähle einen Baum an.
     - Setze `Mode` auf `Top Down` und `View` auf `Table`.
     - Identifiziere den Layer mit einem Wert.
@@ -48,7 +48,7 @@
     
     - Drücke auf `Raster` > `Extraction` > `Clip Raster by Extent`
     - Wähle für den `Input Layer` der Layer auf dem deine Daten existieren.
-    - Drücke bei `Clipping extent` auf `set to current map Canvas Extent`.
+    - Drücke bei `Clipping extent` auf `set to current map Canvas Extent` ![](assets/ClippingExtendIcon.png) .
     - Klicke auf `Run`.
     - Dadurch wird ein Ausschnitt des Layers an der aktuellen Bildschirmposition extrahiert und lokal gespeichert.
 
@@ -60,9 +60,9 @@
     https://github.com/user-attachments/assets/383a965e-cd10-4c5f-8de5-f6e01cbcab26
 
     - Vorbereitung: Falls das benötigte Polygon noch nicht vorliegt
-        - Erstelle einen neuen temporären Layer, mit dem Feature `New Temporary Scratch Layer`.
+        - Erstelle einen neuen temporären Layer, mit dem Feature `New Temporary Scratch Layer` ![](assets/NewTemporaryScratchLayerIcon.png) .
         - Wähle den Geometrytyp `Polygon` und als CRS `EPSG:2056 CH1903+/LV95` (für Schweizer Karten).
-        - Zeichne mit dem `Add Polygon` Feature den gewünschten Bereich ein.
+        - Zeichne mit dem `Add Polygon` ![](assets/PolygonIcon.png) Feature den gewünschten Bereich ein.
         - Drücke auf `Raster` > `Extraction` > `Clip Raster by Mask Layer`.
         - Wähle den `Input Layer`, den erstellten `Mask Layer` und klicke auf `Run`.
 
@@ -71,7 +71,7 @@
 https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 
 
-- Sofern für Layer eine `temporal property` definiert ist, kann durch Klick auf das Uhren-Symbol der Temporal Controller geöffnet werden.
+- Sofern für Layer eine `temporal property`![](assets/TemporalIcon.png) definiert ist, kann durch Klick auf das Uhren-Symbol der Temporal Controller geöffnet werden.
 - Um einem Layer eine Zeiteigenschaft zuzuweisen: Rechtsklick auf den `Layer` > `Properties` > `Temporal`.
 
 
@@ -83,5 +83,3 @@ https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 ... Mitwirkungsmöglichkeiten und Kontaktangaben einfügen ...
 
 Dies ist eine offene & kollaborative Anleitung. Inputs und Rückmeldungen sind ebenso erwünscht wie Beiträge und Mitwirkung.
-
-![](assets/PolygonIcon.png)
