@@ -45,7 +45,7 @@
     - [x] Damit kann ein rechteckiger Bereich (z.B. Bildschirmbereich) ausgeschnitten und lokal gespeichert werden.
     
     https://github.com/user-attachments/assets/2a21ea85-afc3-45b5-875e-55f2d949d792
-
+    
     - Drücke auf `Raster` > `Extraction` > `Clip Raster by Extent`
     - Wähle für den `Input Layer` der Layer auf dem deine Daten existieren.
     - Drücke bei `Clipping extent` auf `set to current map Canvas Extent`.
@@ -83,3 +83,5 @@ https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 ... Mitwirkungsmöglichkeiten und Kontaktangaben einfügen ...
 
 Dies ist eine offene & kollaborative Anleitung. Inputs und Rückmeldungen sind ebenso erwünscht wie Beiträge und Mitwirkung.
+
+![](assets/PolygonIcon.png)
