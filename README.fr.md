@@ -57,7 +57,7 @@ https://github.com/user-attachments/assets/2a21ea85-afc3-45b5-875e-55f2d949d792
 https://github.com/user-attachments/assets/383a965e-cd10-4c5f-8de5-f6e01cbcab26
 
 - Préparation : Si le polygone requis n'est pas encore disponible, créez une couche temporaire à l'aide de la fonctionnalité `New Temporary Scratch Layer` ![](assets/NewTemporaryScratchLayerIcon.png) .
-- Sélectionnez `Polygone` comme type de géométrie et `EPSG:2056 CH1903+/LV95` comme SCR (pour les cartes suisses).
+- Sélectionnez `Polygone` comme type de géométrie et `EPSG:2056 CH1903+/LV95` comme CRS (pour les cartes suisses).
 - Utilisez la fonctionnalité `Add Polygon` ![](assets/PolygonIcon.png) pour dessiner la zone souhaitée.
 - Cliquez sur `Raster` > `Extraction` > `Clip Raster by Mask Layer`.
 - Sélectionnez le `Input Layer`, le `Mask Layer` créé, puis cliquez sur `Run`.
