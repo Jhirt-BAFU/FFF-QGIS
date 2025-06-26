@@ -1,5 +1,7 @@
 # Tutorial - cloud-optimized GeoTIFF in QGIS importieren
 
+[_en français_](./README.fr.md)
+
 ## Plugin in QGIS installieren und nutzen
 
 1. **Plugin installieren**
