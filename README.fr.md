@@ -83,11 +83,11 @@ https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 
     - Pour afficher la barre de recherche, il faut d'abord faire défiler la page complètement vers le bas.
 
-    *Vidéo*
+    https://github.com/user-attachments/assets/32f9e678-dfe9-4a9e-be25-46021c88cf57
 
     - Les données peuvent être téléchargées et leurs métadonnées analysées.
 
-    *Vidéo*
+    https://github.com/user-attachments/assets/5ec573e3-18bb-4b2d-9deb-2bfe7a450982
 
 # Collaboration
 
