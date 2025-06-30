@@ -89,11 +89,12 @@
 
     - Um die Suchleiste anzuzeigen, muss zunächst ganz nach unten auf der Seite gescrollt werden.
 
-    *Video*
+    https://github.com/user-attachments/assets/32f9e678-dfe9-4a9e-be25-46021c88cf57
 
     - Die Daten können heruntergeladen und deren Metadaten analysiert werden.
 
-    *Video*
+    https://github.com/user-attachments/assets/5ec573e3-18bb-4b2d-9deb-2bfe7a450982
+
 
 # Mitwirkung
 
