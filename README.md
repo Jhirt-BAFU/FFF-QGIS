@@ -66,7 +66,7 @@
         - Drücke auf `Raster` > `Extraction` > `Clip Raster by Mask Layer`.
         - Wähle den `Input Layer`, den erstellten `Mask Layer` und klicke auf `Run`.
 
-- ## Abfrage von Zeitständen in QGIS
+- **Abfrage von Zeitständen in QGIS**
 
     https://github.com/user-attachments/assets/d617b47f-c16f-41e4-945f-afbcc1895e5f
 
@@ -74,8 +74,9 @@
     - Sofern für Layer eine `temporal property`![](assets/TemporalIcon.png) definiert ist, kann durch Klick auf das Uhren-Symbol der Temporal Controller geöffnet werden.
     - Um einem Layer eine Zeiteigenschaft zuzuweisen: Rechtsklick auf den `Layer` > `Properties` > `Temporal`.
 
+## Browser und Webb Applikationen
 
-- ## LFI Webapp Applikation
+- **LFI Webapp Applikation**
 
     - [x] Auf der Webseite [LFI Webapp](https://www.lfi.ch/de/karten/vegetationshoehe-oberflaechenmodell) können die Daten auch abgefragt werden.
 
@@ -83,7 +84,7 @@
 
     - Es besteht eine Auswahlmöglichkeit zwischen `LiDAR`, `Stereo` und `Sentinel`-Daten, wobei die Datenqualität in dieser Reihenfolge abnimmt.
 
-- ## STAC Browser
+- **STAC Browser**
 
     - [x] Auf der Webseite [STAC Browser](https://data.geo.admin.ch/browser/#) können die Daten ebenso wie mit dem `Swiss Geo Downloader`-Plugin bezogen werden.
 

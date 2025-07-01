@@ -69,7 +69,9 @@
     - Si une `temporal property` ![](assets/TemporalIcon.png) est définie pour une couche, le contrôleur temporel peut être ouvert en cliquant sur l'icône en forme d'horloge.
     - Pour attribuer une propriété temporelle à une couche : Clic droit sur la `Layer` > `Properties` > `Temporal`.
 
-- ## Application Web LFI
+## Navigateur et pplications web
+
+- **Application Web LFI**
 
     - [x] Les données peuvent également être consultées sur le site [Application Web LFI](https://www.lfi.ch/de/karten/vegetationshoehe-oberflaechenmodell).
 
@@ -77,7 +79,7 @@
 
     - Il est possible de choisir entre les données `LiDAR`, `Stéréo` et `Sentinel`, la qualité diminuant dans cet ordre.
     
-- ## Navigateur STAC
+- **Navigateur STAC**
 
     - [x] Les données peuvent être consultées sur le site [Navigateur STAC](https://data.geo.admin.ch/browser/#), tout comme avec le plugin `Swiss Geo Downloader`.
 
