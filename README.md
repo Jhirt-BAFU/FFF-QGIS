@@ -73,6 +73,7 @@
 
     - Sofern für Layer eine `temporal property`![](assets/TemporalIcon.png) definiert ist, kann durch Klick auf das Uhren-Symbol der Temporal Controller geöffnet werden.
     - Um einem Layer eine Zeiteigenschaft zuzuweisen: Rechtsklick auf den `Layer` > `Properties` > `Temporal`.
+    - Beispiel [QGIS_Projekt](./examples/Geodaten_LFI_2025.qgs)
 
 ## Browser und Web Applikationen
 

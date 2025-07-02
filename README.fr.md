@@ -68,6 +68,7 @@
 
     - Si une `temporal property` ![](assets/TemporalIcon.png) est définie pour une couche, le contrôleur temporel peut être ouvert en cliquant sur l'icône en forme d'horloge.
     - Pour attribuer une propriété temporelle à une couche : Clic droit sur la `Layer` > `Properties` > `Temporal`.
+    - Example [Projet_QGIS](./examples/Geodaten_LFI_2025.qgs)
 
 ## Navigateur et applications web
 
