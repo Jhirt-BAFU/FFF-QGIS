@@ -100,6 +100,6 @@
 
 # Mitwirkung
 
-... Mitwirkungsmöglichkeiten und Kontaktangaben einfügen ...
-
+Danke an die Erstellung des Tutorials durch das BAFU!
 Dies ist eine offene & kollaborative Anleitung. Inputs und Rückmeldungen sind ebenso erwünscht wie Beiträge und Mitwirkung.
+Kontakt: hannes.horneber@bfh.ch
